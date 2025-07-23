@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import {Header} from "./Component/Header.js"; //headr file me const use kiya hai esliya {} isme likhana hota hai  
+import Todos from "./Component/Todos.js"
+import Footer from "./Component/Footer.js";
+
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          
-        </a>
-      </header>
-    </div>
+    <>
+   <Header tital = {"To Do List"}/>
+   <Todos/>
+   <Footer/>
+   </>
   );
 }
 
