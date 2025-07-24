@@ -1,12 +1,12 @@
 import React from 'react'
 import Todos from './Todos'
 
-export default function Todoitem({todo}) {
+export default function Todoitem({todo,onDelete}) {
   return (
     <div>
       <h4>{todo.title}</h4>
       <p>{todo.desc}</p>
-      <button className='btn text-center btn-danger'>Delete</button>
+      <button className='btn text-center btn-danger' onClick={() => {onDelete(todo)}}>Delete</button>
     </div>
   )
 }
