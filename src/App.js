@@ -6,11 +6,37 @@ import Footer from "./Component/Footer.js";
 
 
 function App() {
+  let todos = [
+    {
+        sno: 1,
+        title: "Go to the market",
+        desc : "i need go market becouse i tatke same coffi powder"
+    },
+
+     {
+        sno: 2,
+        title: "Go to the bazar",
+        desc : "i need go market becouse i tatke same coffi powder"
+    },
+
+     {
+        sno: 3,
+        title: "Go to the Station",
+        desc : "i need go market becouse i tatke same coffi powder"
+    },
+
+     {
+        sno: 4,
+        title: "Go to the mall",
+        desc : "i need go market becouse i tatke same coffi powder"
+    },
+  ]
  
   return (
     <>
    <Header tital = {"To Do List"}/>
-   <Todos/>
+   <Todos todos ={todos}/>
+   
    <Footer/>
    </>
   );
