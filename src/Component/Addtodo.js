@@ -18,7 +18,7 @@ const Addtodo = ({addtodo}) => {
     }
     return (
         <div>
-            <h3 className='text-center my-4'>Add TodoList</h3>
+            <h3 className='text-center my-4'>Add TodoLists</h3>
         <div className='d-flex justify-content-center align-items-center'>
             <form onSubmit={submit}>
                 <div className="mb-3">

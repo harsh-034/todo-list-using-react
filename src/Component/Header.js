@@ -30,7 +30,7 @@ export const Header = (props) => { //props ka matalab parent ka child ki tarafe 
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  About
+                  about
                 </a>
               </li>
             </ul>
